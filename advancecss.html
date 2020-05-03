@@ -1,0 +1,70 @@
+<!--
+	Advanced-CSS in HTML webpage (AdvancedCSS.html)
+-->
+
+<html>
+<head>
+	<title>Advanced-CSS</title>
+	<style>
+		*{
+			color:blue;
+		}
+		 #div1 p{
+			border:2px Solid Brown;
+		}
+		p+ul{
+			border:2px Double Red;
+		} 
+		 a[href]{
+			border:2px Dotted Green;
+		}
+		a[href="www.gmail.com"]{
+			background:yellow;
+		}
+		li:nth-of-type(2){
+			background:yellow;
+		}
+		ul:nth-of-type(1){
+			width:50%;
+		}
+		li:nth-of-type(odd){
+			background-color:lightpink;
+		}
+		h1,div{
+			border:1px dashed Maroon;
+		}
+	</style> */
+</head>
+<body bgcolor="LightYellow">
+<h1>Advanced-CSS in HTML webpage</h1>
+<hr />
+<div id="div1">
+	<p>This is Para1</p>
+	<p>This is Para2</p>
+	<ul>
+		<li>C</li>
+		<li>C++</li>
+		<li>Java</li>
+		<li>.Net</li>
+		<li>Python</li>
+	</ul>
+</div>
+<div id="div2">
+	<p>This is Para3</p>
+	<p>This is Para4</p>
+	<ul>
+		<li>Oracle</li>
+		<li>MySQL</li>
+		<li>DB2</li>
+		<li>Ingress</li>
+		<li>Postgrau</li>
+	</ul>
+</div>
+<div id="div3">
+	<a href="www.gmail.com">Gmail</a> <br />
+	<a href="www.google.com">Google</a> <br />
+	<a href="www.gmail.com">Gmail</a> <br />
+	<a href="www.facebook.com">Facebook</a> <br />
+</div>
+</body>
+</html>

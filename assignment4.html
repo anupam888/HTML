@@ -1,0 +1,116 @@
+<!--
+	Divisions in HTML Webpage
+-->
+
+<html>
+	<head>
+		<title>HTML Images</title>
+		<style>
+			#maindiv{
+				border:2px Solid Blue;
+				height:400px;
+			}
+			#mainpara{
+				background:yellow;
+				text-align:center;
+				height:30px;
+				font-size:23px;
+				color:red;
+				border:1px Solid red;
+				background: chartreuse;
+			}
+			.indiv{
+				border:2px Solid Maroon;
+				height:150px;
+				margin:5px;
+				
+			}
+			.imgs1{
+				border:2px Solid Red;
+				width:19%;
+				height:135px;
+				margin:1px;
+				margin-top:5px;
+				margin-left:2px;
+				border-radius:50%;
+				background: coral;
+				
+
+			}
+			.imgs1:hover{
+				border:2px Solid Red;
+				width:19%;
+				height:135px;
+				margin:1px;
+				margin-top:5px;
+				margin-left:2px;
+				border-radius:50%;
+				background: coral;
+				transform: rotate(180deg);
+				transform:scale(2.5) 
+				
+
+			}
+			.imgs2{
+				border:2px dotted Red;
+				width:19%;
+				height:135px;
+				margin:1px;
+				margin-top:5px;
+				margin-left:2px;
+				border-radius: 8px;
+				background: crimson;
+			}
+			.imgs2:hover{
+				border:2px dotted Red;
+				width:19%;
+				height:135px;
+				margin:1px;
+				margin-top:5px;
+				margin-left:2px;
+				border-radius: 8px;
+				background: crimson;
+				;
+				transform: rotate(45deg);
+			}
+			h1{
+				text-align: center;
+				border: 2px solid black;
+				background: blueviolet;
+			}
+			h1:hover{
+				text-align: center;
+				border: 2px solid black;
+				background: rgb(17, 177, 163);
+			}
+			body:hover{
+				background: crimson;
+
+			}
+		</style>
+	</head>
+	<body bgcolor="Lightgreen">
+	<h1>IMAGES IN HTML</h1>
+	<hr />
+	<div id="maindiv">
+		<p id="mainpara">***Image Gallery***</p>
+		<div class="indiv">
+		<img class="imgs1"  src="https://source.unsplash.com/user/erondu/1600x900">
+		<img class="imgs1" src=" https://source.unsplash.com/weekly?water">
+		<img class="imgs1" src="https://source.unsplash.com/collection/190727/1600x900">
+		<img class="imgs1" src="img1.jpg">
+		<img class="imgs1" src="img2.jpg">
+	
+		 
+		</div>
+		<div class="indiv">
+		<img class="imgs2" src="img3.jpg" alt="Img1"/>
+		<img class="imgs2" src="img4.jpg" alt="Img2"/>
+		<img class="imgs2" src="img5.jpg" alt="Img3"/>
+		<img class="imgs2" src="img6.jpg" alt="Img4"/>
+		
+		<a href="https://www.google.com/ "><img class="imgs2" src="img7.jpg" alt="Img5"/></a>
+		</div>
+	</div>
+	</body>
+</html>

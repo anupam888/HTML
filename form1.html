@@ -1,0 +1,60 @@
+<!--
+	Forms in HTML Webpage
+-->
+
+<html>
+	<head>
+		<title>HTML Form</title>
+		<style>
+			fieldset{
+				border:2px Solid Red;
+				border-radius:10px;
+				width:30%;
+                height: 400px;
+				background:rgb(15, 199, 76);
+                margin-left: 300px;
+			}
+			legend{
+				border:2px Solid Red;
+				border-radius:5px;
+				background:yellow;
+			}
+		</style>
+	</head>
+	<body bgcolor="black">
+	<h1>Forms in HTML Webpage</h1>
+	<hr />
+	<fieldset>
+		<legend>Login-Form</legend>
+		<form action="Login.jsp" name="f1" id="f1" method="get">
+		
+		<label for="uname">Enter Username :</label>
+		<input type="text" id="uname" name="uname" value="" placeholder="Username" required />
+		
+		<br /><br />
+		<label for="pwd">Enter Password :</label>
+        <input type="password" id="pwd" name="pwd" value="" placeholder="Password" required />
+        <br>
+        <label for="red">Select Gender:</label>
+        <input type="radio" id="red" name="red" >Male
+        <input type="radio" id="red" name="red" >FeMale
+        <br>
+       <label for="em">Email:</label>
+        <input type="email" id="em" name="em" value="" placeholder="Enter email" required>
+        <br /><br />
+        
+	<label for="langs">Languages Known : </label>
+	<input type="checkbox" id="langs" name="langs" value="" >English
+	<input type="checkbox" id="langs" name="langs" value="" >Telugu
+    <input type="checkbox" id="langs" name="langs" value="" >Hindi
+    <br>
+	<label for="addr" >Address : </label> <br>
+	<textarea id="addr" name="addr" value="" placeholder="Enter Address" rows="6" cols="30"></textarea>
+		
+		
+		<br /><br />
+		<input type="submit" name="submit" value="Login" />
+		</form>
+		</fieldset>
+	</body>
+</html>
